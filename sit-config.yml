@@ -4,14 +4,3 @@ eureka.instance.hostname : ${spring.profile}
 eureka.clinet.registerWithEureka : ture
 eureka.clinet.fetchRegistry : ture
 eureka.clinet.serviceUrl.defaultZone : http://sit-eureka-commerce.is.ktds.co.kr:8092/eureka/
-database.type : mysql
-database.master.id : 0
-database.master.type : master
-database.master.user : develop
-database.master.databaseName : expose
-database.master.pass : #######
-database.master.host : devOrd
-database.master.dataSourceClassName : org.mariadb.jdbc.MySQLDataSource
-database.master.readOnly : false
-database.slave.id : 1
-database.slave.type : slave
