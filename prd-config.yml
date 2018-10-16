@@ -10,7 +10,7 @@ database.master.type : master
 database.master.user : develop
 database.master.databaseName : expose
 database.master.pass : #######
-database.master..host : devOrd
+database.master.host : devOrd
 database.master.dataSourceClassName : org.mariadb.jdbc.MySQLDataSource
 database.master.readOnly : false
 database.slave.id : 1
